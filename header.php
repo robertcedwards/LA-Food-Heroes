@@ -92,7 +92,7 @@
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 	
 
-	<link rel="stylesheet" href="https://raw.github.com/cdnjs/cdncss/master/css/1140/2.0/1140.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/columnal.css">
 
 	<!-- CSS: screen, mobile & print are all in the same file -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
@@ -117,20 +117,20 @@
 
 <body<?php body_class(); ?>>
 	
-	<div class="container-fluid"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+	<div class="container"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 
 		<header id="header" class="row">
-			<div class="span6 columns"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
+			<div class="col_6"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
 			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<div style="display:none"; class="description"><?php bloginfo('description'); ?></div>
-			<div id="social" class="span5 columns offset5">
+			<div id="social" class="col_5 pre_5">
 				<ul>
 					<li><a href="#"><div class="fb-like social" data-href="https://www.facebook.com/pages/LA-Food-Heroes/126965250720277" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div></a></li>
 					<li><a href="#"><div class="social "><g:plusone href="http://www.lafoodheroes.org"></g:plusone></div></a></li>
 					<li><a href="#"><div class="social "><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></a></li>
 				</ul>			
 			</div>
-			<div id="nav" class="span12 columns"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
+			<div id="nav" class="col_12"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
 
 		</header>
 <div class="clear"></div>

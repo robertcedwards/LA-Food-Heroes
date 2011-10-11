@@ -92,8 +92,7 @@
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 	
 
-	<!-- CSS: Twitter Bootstrap  addition http://twitter.github.com/bootstrap/ -->
-<link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.1.1.min.css">
+	<link rel="stylesheet" href="https://raw.github.com/cdnjs/cdncss/master/css/1140/2.0/1140.css">
 
 	<!-- CSS: screen, mobile & print are all in the same file -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">

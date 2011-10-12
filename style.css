@@ -181,7 +181,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 #social {padding:15px;}
 #social ul{list-style-type: none;margin: 0;padding: 0;}
  #social ul li{display:inline;float:left;width: 90px;}
-#nav {background-color: #86AF49; height: 33px; margin-top: 5px; }
+#nav {background-color: #86AF49; height: 100%; margin-top: 5px; }
 #nav ul{list-style-type: none;margin: 0;padding: 0;}
  #nav ul li{display:inline;float:left; padding: 9px;}
  #nav ul li a{text-decoration: none; color: black; cursor: pointer;}

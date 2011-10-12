@@ -119,6 +119,7 @@ button {width: auto; overflow: visible;}
 .clearfix:after { clear: both; }  
 .clearfix { zoom: 1; }  
 
+.clear{margin:10px auto;}
 
 
 /* Ok, this is where the fun starts.

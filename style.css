@@ -127,7 +127,7 @@ button {width: auto; overflow: visible;}
 body {font: 16px "Questrial", serif; line-height:150%; background-image:url('images/leafybg.JPG');-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;}
 body h2{font: 18px "Questrial", serif; color:#669933;margin-bottom: 10px;margin-top:15px;}
 body p strong{color:#ff9933;font-weight:400;}
-body h3 {font-size:20px;text-align: center;margin-bottom:15px;font-weight:100}
+body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight:100}
 
 /* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
 @font-face {
@@ -196,11 +196,17 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
   background-image:      -o-linear-gradient(top, #669933, #99cc66); /* Opera 11.10+ */
   background-image:         linear-gradient(top, #669933, #99cc66);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#669933', EndColorStr='#99cc66'); /* IE6-IE9 */
-           margin-top: 5px; float:right;}
+           margin-top: 5px; float:right;
+               -webkit-border-radius: 10px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+     -moz-border-radius: 10px; /* FF1-3.6 */
+          border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+          
+  /* useful if you don't want a bg color from leaking outside the border: */        
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;}
 #nav ul{list-style-type: none;margin: 0;padding: 0;}
 #nav ul li{display:inline;float:left; padding: 2px;}
-#nav ul li a{text-decoration: none; color: black; cursor: poiner;}
- 
+#nav ul li a{text-decoration: none; color: black; cursor: pointer;text-shadow: 1px 1px 3px #888;}
+#nav ul li a:hover{color: #bababa}
 .page p{margin:10px 0 0 10px;} 
 .page h2{margin:10px 0 0 10px;} 
 .page h3{margin:10px 0 0 10px;} 

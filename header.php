@@ -121,7 +121,7 @@
 
 		<header id="header" class="row transparent shadow rounded">
 			<div class="col_4"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
-			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/homepage.php"><?php bloginfo('name'); ?></a></h1>
+			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<div style="display:none"; class="description"><?php bloginfo('description'); ?></div>
 			<div id="social" class="col_4">
 				<ul>
@@ -131,6 +131,6 @@
 				</ul>			
 			</div>
 			<div id="nav" class="col_7"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
-			<div id="searchform" class="col_5 last"><form role="search" method="get" id="searchform" action="<?php bloginfo('siteurl'); ?>"><fieldset><label for="s">Search:</label><input type="text" name="s" id="search" value="<?php the_search_query(); ?>" /><input type="button" id="searchsubmit" value="Search" alt="Search"/></fieldset></form></div>
+			<div id="searchform" class="pre_3 col_4 last"><form role="search" method="get" id="searchform" action="<?php bloginfo('home'); ?>/"><fieldset><label for="s">Search:</label><input type="text" name="s" id="search" value="<?php the_search_query(); ?>" /><input type="button" id="searchsubmit" value="Search" alt="Search"/></fieldset></form></div>
 		</header>
 <div class="clear"></div>

@@ -202,6 +202,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .page p{margin:10px 0 0 10px;} 
 .page h2{margin:10px 0 0 10px;} 
 .page h3{margin:10px 0 0 10px;} 
+.page footer{margin:10px 0 0 10px;} 
 
 .entry p{margin: 10px 10px;}
 .entry h2{margin: 10px 0 0 10px;}

@@ -10,9 +10,6 @@ Template Name: Home Page
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
 			<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-
-			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
-
 			<div class="entry row">
 				<div class="col_4">
 					<?php $News_id = 4; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
@@ -36,7 +33,5 @@ Template Name: Home Page
 		<h2>Not Found</h2>
 
 	<?php endif; ?>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

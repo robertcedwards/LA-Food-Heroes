@@ -32,6 +32,5 @@
 		<h2 class="col_12 transparent rounded">No posts found.</h2>
 
 	<?php endif; ?>
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

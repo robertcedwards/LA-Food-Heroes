@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 	<?php if (have_posts()) : ?>
-
+<div class="row transparent rounded">
 		<h2>Search Results</h2>
 
 		<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
-<div class="row">
+
 		<?php while (have_posts()) : the_post(); ?>
 	
 

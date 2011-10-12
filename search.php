@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+	<div class="row">
 	<?php if (have_posts()) : ?>
 
 		<h2>Search Results</h2>
@@ -21,6 +21,7 @@
 				</div>
 
 			</article>
+	</div>
 
 		<?php endwhile; ?>
 
@@ -28,10 +29,9 @@
 
 	<?php else : ?>
 
-		<h2>No posts found.</h2>
+		<h2 class="col_12 transparent rounded">No posts found.</h2>
 
 	<?php endif; ?>
-
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

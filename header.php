@@ -117,7 +117,7 @@
 
 <body <?php body_class(); ?>>
 	
-	<div class="container"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+	<div class="container transparent shadow"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 
 		<header id="header" class="row">
 			<div class="col_4"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>

@@ -19,14 +19,11 @@ Template Name: Home Page
 				<div class="col_4">
 					<?php $News_id = 197; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
 					<hr>
-					<?php $News_id = 121; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
-
-				</div>
-				<div class="col_4">
-					<?php $News_id = 121; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
-					<hr>
 					<?php $News_id = 219; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
 
+				</div>
+				<div class="col_4 last">
+					<?php $News_id = 121; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
 				</div>
 
 

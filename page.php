@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
-		<article class="post" id="post-<?php the_ID(); ?>">
+<div class="row transparent rounded page">
+		<article class="post col_12" id="post-<?php the_ID(); ?>">
 
 
 
@@ -21,4 +21,4 @@
 		<?php comments_template(); ?>
 
 		<?php endwhile; endif; ?>
-
+</div>

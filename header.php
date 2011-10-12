@@ -93,8 +93,22 @@
 	
 
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/columnal.css">
+<!-- Fixes for IE -->
+	<!--[if lt IE 9]>
+    	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
 
-	<!-- CSS: screen, mobile & print are all in the same file -->
+	<!-- use "fixed-984px-ie.css" or "fixed-960px-ie.css for a 984px or 960px fixed width for IE6 and 7 -->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/fixed-984px-ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	
+<!-- Fixes for IE6, only needed if IE 6 will be supported - width must match 984px or 960px of css file used above -->
+<!-- Use .imagescale to fix IE6 issues with full-column width images (class must be added to any image wider than the column it is placed into) -->
+	<!--[if lte IE 6]>
+		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/ie6-984px.css" type="text/css" media="screen" />
+	<![endif]-->
+  <!-- End fixes for IE -->	<!-- CSS: screen, mobile & print are all in the same file -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
 
 	<!-- all our JS is at the bottom of the page, except for Modernizr. -->

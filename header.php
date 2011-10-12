@@ -131,7 +131,7 @@
 				</ul>			
 			</div>
 			<div id="nav" class="col_6"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
-			<div id="searchform" class="pre_3 col_4 last">
+			<div id="searchform" class="pre_3 col_4">
 				<?php get_search_form( $echo ); ?>
 			</div>
 		</header>

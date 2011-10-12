@@ -136,29 +136,26 @@ button {width: auto; overflow: visible;}
 -------------------------------------------------------------------------------*/
 
 /* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
-body {font: 14px "Droid Serif", serif;}
+body {font: 16px "Questrial", serif; line-height:150%;}
+body h2{font: 18px "Questrial", serif; color:#669933;margin-bottom: 10px;margin-top:15px;}
+body p strong{color:#ff9933;font-weight:400;}
+body h3 {font-size:20px;text-align: center;margin-bottom:15px;font-weight:100}
 
 /* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
 @font-face {
-  font-family: 'Droid Serif';
-  src: url('/fonts/DroidSerif-Regular.eot?') format('eot'), url('/fonts/DroidSerif-Regular.woff') format('woff'), url('/fonts/DroidSerif-Regular.ttf') format('truetype');
- 
-  font-family: 'Droid Serif Italic';
-  src: url('/fonts/DroidSerif-Italic.eot?') format('eot'), url('/fonts/DroidSerif-Italic.woff') format('woff'), url('/fonts/DroidSerif-Italic.ttf') format('truetype');
- 
-  font-family: 'Droid Serif Bold Italic';
-  src: url('/fonts/DroidSerif-BoldItalic.eot?') format('eot'), url('/fonts/DroidSerif-BoldItalic.woff') format('woff'), url('/fonts/DroidSerif-BoldItalic.ttf') format('truetype');
- 
-  font-family: 'Droid Bold';
-  src: url('/fonts/DroidSerif-Bold.eot?') format('eot'), url('/fonts/DroidSerif-Bold.woff') format('woff'), url('/fonts/DroidSerif-Bold.ttf') format('truetype');
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Questrial'), local('Questrial-Regular'), url('http://themes.googleusercontent.com/static/fonts/questrial/v1/MYWJ4lYm5dbZ1UBuYox79LO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
 
-}
+ }
 
 /* we like off-black for text */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
-a:hover {color: #69f;}
+a {color: #95dd64;text-decoration:underline;}
+a:hover {text-decoration: none;}
+
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}

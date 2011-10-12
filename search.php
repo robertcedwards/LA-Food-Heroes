@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<?php if (have_posts()) : ?>
-<div class="row transparent rounded">
+<div class="row transparent rounded page">
 		<h2>Search Results</h2>
 
 		<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
@@ -29,7 +29,7 @@
 
 	<?php else : ?>
 
-		<h2 class="col_12 transparent rounded">No posts found.</h2>
+		<h2 class="col_12 transparent rounded page">No posts found.</h2>
 
 	<?php endif; ?>
 

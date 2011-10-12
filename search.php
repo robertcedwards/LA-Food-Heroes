@@ -4,9 +4,9 @@
 		<h2>Search Results</h2>
 
 		<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
-
+<div class="row">
 		<?php while (have_posts()) : the_post(); ?>
-	<div class="row">
+	
 
 			<article <?php post_class('col_12') ?> id="post-<?php the_ID(); ?>">
 
@@ -21,10 +21,10 @@
 				</div>
 
 			</article>
-	</div>
+
 
 		<?php endwhile; ?>
-
+	</div>
 		<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
 
 	<?php else : ?>

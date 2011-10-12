@@ -16,11 +16,10 @@ Template Name: Home Page
 				</div>
 				<div class="col_4 rounded shadow transparent">
 					<?php $News_id = 197; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
-				</div>
-				<div class="col_4 rounded shadow transparent">
+					<br>
 					<?php $News_id = 219; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
-				</div>
 
+				</div>
 				<div class="col_4 rounded shadow last transparent">
 					<?php $News_id = 121; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
 				</div>

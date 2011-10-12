@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-	<div class="row">
 	<?php if (have_posts()) : ?>
 
 		<h2>Search Results</h2>
@@ -7,6 +6,7 @@
 		<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>
 
 		<?php while (have_posts()) : the_post(); ?>
+	<div class="row">
 
 			<article <?php post_class('col_12') ?> id="post-<?php the_ID(); ?>">
 

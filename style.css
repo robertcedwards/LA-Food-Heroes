@@ -123,9 +123,7 @@ button {width: auto; overflow: visible;}
 
 /* Ok, this is where the fun starts.
 -------------------------------------------------------------------------------*/
-
-/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
-body {font: 16px "Questrial", serif; line-height:150%;}
+body {font: 16px "Questrial", serif; line-height:150%; background-image:url('url('images/leafybg.JPG')');-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;background-size: 100% 100%;}
 body h2{font: 18px "Questrial", serif; color:#669933;margin-bottom: 10px;margin-top:15px;}
 body p strong{color:#ff9933;font-weight:400;}
 body h3 {font-size:20px;text-align: center;margin-bottom:15px;font-weight:100}

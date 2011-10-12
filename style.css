@@ -198,7 +198,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
  #nav ul li{display:inline;float:left; padding: 2px;}
  #nav ul li a{text-decoration: none; color: black; cursor: pointer;}
  
-
+.entry p{margin: 10px 10px;}
 
 .entry-content {}
 .entry-content a {}

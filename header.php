@@ -130,7 +130,7 @@
 					<li><a href="#"><div class="social "><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></a></li>
 				</ul>			
 			</div>
-			<div id="nav" class="col_7"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
+			<div id="nav" class="col_6"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
 			<div id="searchform" class="pre_3 col_4 last">
 				<?php get_search_form( $echo ); ?>
 			</div>

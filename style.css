@@ -194,10 +194,10 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
   background-image:      -o-linear-gradient(top, #669933, #99cc66); /* Opera 11.10+ */
   background-image:         linear-gradient(top, #669933, #99cc66);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#669933', EndColorStr='#99cc66'); /* IE6-IE9 */
-           margin-top: 5px; }
+           margin-top: 5px; float:right;}
 #nav ul{list-style-type: none;margin: 0;padding: 0;}
- #nav ul li{display:inline;float:left; padding: 2px;}
- #nav ul li a{text-decoration: none; color: black; cursor: pointer;}
+#nav ul li{display:inline;float:left; padding: 2px;}
+#nav ul li a{text-decoration: none; color: black; cursor: poiner;}
  
 .page p{margin:10px 0 0 10px;} 
 .page h2{margin:10px 0 0 10px;} 
@@ -220,7 +220,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .navgation {}
 .next-posts {}
 .prev-posts {}
-
+#searchform{float:right;}
 #s {}
 #searchsubmt {}
 	

@@ -115,7 +115,7 @@
 }(document));</script>	
 </head>
 
-<body<?php body_class(); ?>>
+<body <?php body_class(); ?>>
 	
 	<div class="container"><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 

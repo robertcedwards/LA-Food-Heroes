@@ -9,13 +9,10 @@
 			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
 
 			<div class="entry">
-		<?php 
-			$News_id = 4; 
-			$page_data = get_page( $News_id  );
-			$content = apply_filters('the_content', $page_data->post_content);
-			$title = $page_data->post_title;
-			echo $content;
-		?>			</div>
+				<div class="col_4">
+					<?php $News_id = 4; $page_data = get_page( $News_id  ); $content = apply_filters('the_content', $page_data->post_content); $title = $page_data->post_title; echo $content;?>
+				</div>			
+			</div>
 
 			<footer class="postmetadata">
 				<?php the_tags('Tags: ', ', ', '<br />'); ?>

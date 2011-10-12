@@ -199,6 +199,8 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
  #nav ul li a{text-decoration: none; color: black; cursor: pointer;}
  
 .entry p{margin: 10px 10px;}
+.entry h2{margin: 10px 0 0 0;}
+.entry h3{margin: 10px 0 0 0;}
 
 .entry-content {}
 .entry-content a {}

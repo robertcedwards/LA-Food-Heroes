@@ -131,6 +131,6 @@
 				</ul>			
 			</div>
 			<div id="nav" class="col_7"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
-			<div id="searchform" class="col_5 last"><form action="<?php bloginfo('siteurl'); ?>" method="get"><fieldset><label for="search">Search:</label><input type="text" name="s" id="search" value="<?php the_search_query(); ?>" /><input type="button" id="searchsubmit" value="Search" alt="Search"/></fieldset></form></div>
+			<div id="searchform" class="col_5 last"><form role="search" method="get" id="searchform" action="<?php bloginfo('siteurl'); ?>"><fieldset><label for="search">Search:</label><input type="text" name="s" id="search" value="<?php the_search_query(); ?>" /><input type="button" id="searchsubmit" value="Search" alt="Search"/></fieldset></form></div>
 		</header>
 <div class="clear"></div>

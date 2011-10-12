@@ -161,7 +161,8 @@ body h3 {font-size:20px;text-align: center;margin-bottom:15px;font-weight:100}
 }       
 /* we like off-black for text */
 body, select, input, textarea {color: #333;}
-
+.logo{padding-top: 10px;
+padding-left: 10px;}
 a {color: #95dd64;text-decoration:underline;}
 a:hover {text-decoration: none;}
 

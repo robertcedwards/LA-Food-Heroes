@@ -134,7 +134,7 @@
 	<div class="container "><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 
 		<header id="header" class="row transparent shadow rounded">
-			<div class="col_4"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
+			<div class="col_4 logo"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
 			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<div style="display:none"; class="description"><?php bloginfo('description'); ?></div>
 			<div id="social" class="col_4">

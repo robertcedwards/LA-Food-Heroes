@@ -127,6 +127,10 @@
   js.src = "//connect.facebook.net/en_US/all.js#appId=262586560424891&xfbml=1";
   d.getElementsByTagName('head')[0].appendChild(js);
 }(document));</script>	
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/blueberry.css">
+<script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
+<script>$(window).load(function() {$('.blueberry').blueberry();});</script>
+
 </head>
 
 <body <?php body_class(); ?>>

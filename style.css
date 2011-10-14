@@ -1,3 +1,5 @@
+/* @override http://www.lafoodheroes.org/wp-content/themes/html5960gs/style.css */
+
  /*   
 Theme Name: The HTML5 Reset Theme
 Theme URI: http://html5reset.org
@@ -125,9 +127,9 @@ button {width: auto; overflow: visible;}
 /* Ok, this is where the fun starts.
 -------------------------------------------------------------------------------*/
 body {font: 16px "Questrial", serif; line-height:150%; background-image:url('images/leafybg.JPG');-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;}
-body h2{font: 24px "Questrial", serif; color:#669933;margin-bottom: 10px;margin-top:15px;}
-body p strong{color:#ff9933;font-weight:400;}
-body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight:100}
+body h2{font: 24px "Questrial", serif; color:#669933;margin-bottom: 10px;}
+body p strong{font-weight:900;}
+body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight100;color:#ff9933}
 
 
 /* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
@@ -146,11 +148,12 @@ body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight:100}
   /* useful if you don't want a bg color from leaking outside the border: */        
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
 
+
 }
 .shadow{
-  -webkit-box-shadow: 0px 0px 4px #ffffff; /* Saf3-4 */
-     -moz-box-shadow: 0px 0px 4px #ffffff; /* FF3.5 - 3.6 */
-          box-shadow: 0px 0px 4px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+  -webkit-box-shadow: 0px 0px 0px #ffffff; /* Saf3-4 */
+     -moz-box-shadow: 0px 0px 0px #ffffff; /* FF3.5 - 3.6 */
+          box-shadow: 0px 0px 0px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
           margin-top:10px;
 }   
 .transparent{
@@ -209,17 +212,21 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 #nav ul li{display:inline;float:left; padding: 2px;}
 #nav ul li a{text-decoration: none; color: black; cursor: pointer;text-shadow: 1px 1px 3px #888;font-size:16px}
 #nav ul li a:hover{color: #fff}
-.page p{margin:10px 0 0 10px;} 
-.page h2{margin:10px 0 0 10px;} 
-.page h3{margin:10px 0 0 10px;} 
+.page p{margin-left:15px;margin-right: 15px;margin-top:15px;} 
+.page h2{} 
+.page h3{} 
 .page footer{margin:10px 0 0 10px;} 
+.blueberry ul {
+	margin: 20px;
+}
 
-.entry p{max-width:100%;text-indent:25px;padding-bottom:10px;}
+.entry p{padding:px 0px 0px 0px}
 .entry h1{font-variant: small-caps;color:#666;text-shadow:1px 1px 0px #fff;font-size:60px;text-transform:uppercase;display:block;background-color: rgba(153,204,102,0.49);text-indent:25px;margin: 20px;max-width:100%;}
 .entry h2{margin: 10px 0 0 10px;}
 .entry h3{margin: 10px 0 0 10px;}
 .entry li{list-style-type: disc;text-indent:10px;font-style:italic;list-style-position: inside; ;}
 .entry ul{margin-top:20px;}
+
 
 .entry-content {}
 .entry-content a {}

@@ -129,7 +129,7 @@ button {width: auto; overflow: visible;}
 body {font: 16px "Questrial", serif; line-height:150%; background-image:url('images/leafybg.JPG');-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;}
 body h2{font: 24px "Questrial", serif; color:#669933;margin-bottom: 10px;}
 body p strong{font-weight:900;}
-body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight100;color:#ff9933}
+body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight:100;color:#ff9933}
 
 
 /* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */

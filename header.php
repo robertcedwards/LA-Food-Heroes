@@ -129,7 +129,7 @@
 }(document));</script>	
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/blueberry.css">
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
-<script>$(window).load(function() {$('.blueberry').blueberry();});</script>
+<script>$(window).load(function() {jquery('.blueberry').blueberry();});</script>
 
 </head>
 

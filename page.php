@@ -19,6 +19,7 @@
 		</article>
 		
 		<?php comments_template(); ?>
+		<?php dynamic_sidebar( 'primary' ); ?>
 
 		<?php endwhile; endif; ?>
 </div>

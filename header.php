@@ -126,7 +126,8 @@
   js = d.createElement('script'); js.id = id; js.async = true;
   js.src = "//connect.facebook.net/en_US/all.js#appId=262586560424891&xfbml=1";
   d.getElementsByTagName('head')[0].appendChild(js);
-}(document));</script>	
+}(document));</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/js/blueberry.css">
 <script src="<?php bloginfo('template_directory'); ?>/_/js/jquery.blueberry.js"></script>
 <script>$(window).load(function() {jquery('.blueberry').blueberry();});</script>

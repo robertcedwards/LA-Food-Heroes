@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<div class="row transparent rounded page">
-		<article class="post col_8" id="post-<?php the_ID(); ?>">
+<div class="row  page">
+		<article class="post col_8 rounded transparent" id="post-<?php the_ID(); ?>">
 
 
 

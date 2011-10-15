@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: Pages
+Template Name: Blog Page - sidebar left
 */
 ?>
 <?php get_header(); ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<div class="row  page">
-		<article class="post col_8 rounded transparent" id="post-<?php the_ID(); ?>">
+<div class="row transparent rounded page">
+		<article class="post col_12" id="post-<?php the_ID(); ?>">
 
 
 
@@ -20,10 +20,10 @@ Template Name: Pages
 			</div>
 
 			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
-		<?php comments_template(); ?>
 
 		</article>
-		<?php get_sidebar(); ?>
+		
+		<?php comments_template(); ?>
 
 		<?php endwhile; endif; ?>
 </div>

@@ -7,7 +7,9 @@ Template Name: Blog Page - sidebar left
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div class="row transparent rounded page">
-		<article class="post col_12" id="post-<?php the_ID(); ?>">
+		
+				<?php get_sidebar(); ?>
+<article class="post col_12" id="post-<?php the_ID(); ?>">
 
 
 

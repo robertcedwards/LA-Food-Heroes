@@ -146,7 +146,7 @@
 				<ul>
 					<li><a href="#"><div class="fb-like social" data-href="http://www.facebook.com/pages/LA-Food-Heroes/126965250720277" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div></a></li>
 					<li><a href="#"><div class="social "><g:plusone href="http://www.lafoodheroes.org"></g:plusone></div></a></li>
-					<li ><a href="#"><div class="social twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></a></li>
+					<li class="twitter"><a href="#"><div class="social "><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></a></li>
 				</ul>			
 			</div>
 			<div id="nav" class="col_6 last"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>

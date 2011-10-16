@@ -1,1 +1,1 @@
-<div class="col_12 last"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="lafoodheroes.com" num_posts="10" width="600"></fb:comments></div>
+<div class="col_8"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="lafoodheroes.com" num_posts="10" width="600"></fb:comments></div>

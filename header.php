@@ -138,7 +138,7 @@
 	
 	<div class="container "><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 
-		<header id="header" class="row transparent shadow rounded">
+		<header id="header" class="row">
 			<div class="col_4 logo"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
 			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<div style="display:none"; class="description"><?php bloginfo('description'); ?></div>
@@ -150,7 +150,7 @@
 				</ul>			
 			</div>
 			<div id="nav" class="col_6"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
-			<div id="searchform" class="pre_3 col_4">
+			<div id="searchform" class="pre_3 col_4 rounded transparent">
 				<?php get_search_form( $echo ); ?>
 			</div>
 		</header>

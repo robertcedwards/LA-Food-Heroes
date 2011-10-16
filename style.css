@@ -199,7 +199,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
   background-image:      -o-linear-gradient(top, #669933, #99cc66); /* Opera 11.10+ */
   background-image:         linear-gradient(top, #669933, #99cc66);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#669933', EndColorStr='#99cc66'); /* IE6-IE9 */
-           margin-top: 5px; float:right;
+           margin-top: 10px; float:right;
                -webkit-border-radius: 10px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
      -moz-border-radius: 10px; /* FF1-3.6 */
           border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
@@ -229,7 +229,6 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .entry-content {}
 .entry-content a {}
 .entry-content a:hover {}
-.social{width:90px;}
 #meta {}
 .postmetadata {}
 

@@ -216,11 +216,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .page h2{} 
 .page h3{} 
 .page footer{margin:10px 0 0 10px;} 
-.blueberry ul li{
-	list-style: none;
-  margin:0px;
-}
-
+.blueberry ul li{list-style: none;margin:0px;}
 .entry p{padding:px 0px 0px 0px}
 .entry h1{font-variant: small-caps;color:#666;text-shadow:1px 1px 0px #fff;font-size:60px;text-transform:uppercase;display:block;background-color: rgba(153,204,102,0.49);text-indent:25px;margin: 20px;max-width:100%;}
 .entry h2{margin: 10px 0 10 10px;}
@@ -240,10 +236,12 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .navgation {}
 .next-posts {}
 .prev-posts {}
-div#searchform{float:right;margin-top:10px;}
-#s {}
+div#searchform{float:right;margin-top:10px;padding:6px}
+#searchlabel label{font-size: medium;padding: 10px;}
+#s {margin: 0px 15px 0px 5px;}
 #searchsubmt {}
-	
+
+
 ol.commentlist {list-style: none;}
 ol.commentlist li {}
 ol.commentlist li.alt {}

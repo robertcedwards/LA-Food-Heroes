@@ -1,5 +1,3 @@
-/* @override http://www.lafoodheroes.org/wp-content/themes/html5960gs/style.css */
-
  /*   
 Theme Name: The HTML5 Reset Theme
 Theme URI: http://html5reset.org
@@ -8,301 +6,90 @@ Author: Monkey Do!
 Author URI: http://monkeydo.biz
 Version: 1
 */
-
-/*
-	HTML5 Reset Wordpress Theme :: style.css
-	----------------------------------------------------------
-	We have learned much from/been inspired by/taken code where offered from:
-	
-	Eric Meyer					:: http://ericmeyer.com
-	HTML5 Doctor				:: http://html5doctor.com
-	and the HTML5 Boilerplate	:: http://html5boilerplate.com
-	
-	Special thanks: The Wordpress theme owes its start to an empty theme authored 
-		by Chris Coyier & Jeff Starr: http://digwp.com
-	
--------------------------------------------------------------------------------*/
-
-/* Let's default this puppy out
--------------------------------------------------------------------------------*/
-1article, aside, figure, footer, header, hgroup, nav, section {display: block;}
-
-/* Responsive images and other embedded objects
-   Note: keeping IMG here will cause problems if you're using foregro images as sprites, like, say for Google Maps custom placemarkers. 
-   There has been a report of problems with standard Google maps as well, but we haven't been able to duplicate or diagnose the issue. */
-img,
-object,
-embed {max-width: 100%;}
-
-/* force a vertical scrollbar to prevent a jumpy page */
-html {overflow-y: scroll;}
-
-/* we use a lot of ULs that aren't bulleted. 
-	don't forget to restore the bullets within content. */
-ul {list-style: none;}
-
-blockquote, q {quotes: none;}
-
-blockquote:before, 
-blockquote:after, 
-q:before, 
-q:after {content: ''; content: none;}
-
-a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
-
-del {text-decoration: line-through;}
-
-abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
-
-/* tables still need cellspacing="0" in the markup */
-table {border-collapse: collapse; border-spacing: 0;}
-th {font-weight: bold; vertical-align: bottom;}
-td {font-weight: normal; vertical-align: top;}
-
-hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
-
-input, select {vertical-align: middle;}
-
-pre {
-	white-space: pre; /* CSS2 */
-	white-space: pre-wrap; /* CSS 2.1 */
-	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
-	word-wrap: break-word; /* IE */
-}
-
-input[type="radio"] {vertical-align: text-bottom;}
-input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
-.ie6 input {vertical-align: text-bottom;}
-
-select, input, textarea {font: 99% sans-serif;}
-
-table {font-size: inherit; font: 100%;}
- 
-/* Accessible focus treatment
-	people.opera.com/patrickl/experiments/keyboard/test */
-a:hover, a:active {outline: none;}
-
-small {font-size: 85%;}
-
-strong, th {font-weight: bold;}
-
-td, td img {vertical-align: top;} 
-
-/* Make sure sup and sub don't screw with your line-heights
-	gist.github.com/413930 */
-sub, sup {font-size: 75%; line-height: 0; position: relative;}
-sup {top: -0.5em;}
-sub {bottom: -0.25em;}
-
-/* standardize any monospaced elements */
-pre, code, kbd, samp {font-family: monospace, sans-serif;}
-
-/* hand cursor on clickable elements */
-.clickable,
-label, 
-input[type=button], 
-input[type=submit], 
-button {cursor: pointer;}
-
-/* Webkit browsers add a 2px margin outside the chrome of form elements */
-button, input, select, textarea {margin: 0;}
-
-/* make buttons play nice in IE */
-button {width: auto; overflow: visible;}
- 
-/* scale images in IE7 more attractively */
-.ie7 img {-ms-interpolation-mode: bicubic;}
-
-/* prevent BG image flicker upon hover */
-.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
-
-/* let's clear some floats */
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
-.clearfix:after { clear: both; }  
-.clearfix { zoom: 1; }  
-
+article,aside,figure,footer,header,hgroup,nav,section{display:block;}
+img,object,embed{max-width:100%;}
+html{overflow-y:scroll;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+a{background:transparent;color:#95dd64;font-size:100%;margin:0;padding:0;text-decoration:none;vertical-align:baseline;}
+del{text-decoration:line-through;}
+abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}
+table{border-collapse:collapse;border-spacing:0;font:100%;font-size:inherit;}
+th{font-weight:700;vertical-align:bottom;}
+td{font-weight:400;vertical-align:top;}
+hr{border:0;border-top:1px solid #ccc;display:block;height:1px;margin:1em 0;padding:0;}
+input,select{vertical-align:middle;}
+pre{white-space:pre-line;word-wrap:break-word;}
+input[type="checkbox"]{vertical-align:baseline;}
+select,input,textarea{font:99% sans-serif;}
+a:hover,a:active{outline:none;}
+small{font-size:85%;}
+td,td img{vertical-align:top;}
+sub,sup{font-size:75%;line-height:0;position:relative;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+pre,code,kbd,samp{font-family:monospace, sans-serif;}
+.clickable,label,input[type=button],input[type=submit],button{cursor:pointer;}
+button,input,select,textarea{margin:0;}
+button{overflow:visible;width:auto;}
+.ie7 img{-ms-interpolation-mode:bicubic;}
+.ie6 html{filter:expression(document.execCommand("BackgroundImageCache", false, true));}
+.clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1px;}
 .clear{margin:10px auto;}
-
-
-/* Ok, this is where the fun starts.
--------------------------------------------------------------------------------*/
-body {font: 16px "Questrial", serif; line-height:150%; background-image:url('images/leafybg.JPG');-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;}
-body h2{font: 24px "Questrial", serif; color:#669933;margin-bottom: 10px;}
+body{-moz-background-size:cover;-webkit-background-size:cover;background-image:url('images/leafybg.JPG');background-size:cover;font:16px "Questrial", serif;line-height:150%;}
+body h2{color:#693;font:24px "Questrial", serif;margin-bottom:10px;}
 body p strong{font-weight:900;}
-body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight:100;color:#ff9933}
-
-
-/* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
-@font-face {
-  font-family: 'Questrial';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Questrial'), local('Questrial-Regular'), url('http://themes.googleusercontent.com/static/fonts/questrial/v1/MYWJ4lYm5dbZ1UBuYox79LO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
-
- }
-.rounded {
-	background:white;
-  -webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
-     -moz-border-radius: 12px; /* FF1-3.6 */
-          border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
-  /* useful if you don't want a bg color from leaking outside the border: */        
-  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
-
-
-}
-.shadow{
-  -webkit-box-shadow: 0px 0px 0px #ffffff; /* Saf3-4 */
-     -moz-box-shadow: 0px 0px 0px #ffffff; /* FF3.5 - 3.6 */
-          box-shadow: 0px 0px 0px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
-          margin-top:10px;
-}   
-.transparent{
- background-color: transparent;
-  background-color: rgba(255, 255, 255, 0.84);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D6FFFFFF,endColorstr=#D6FFFFFF);
-            zoom: 1;
-
-}       
-/* we like off-black for text */
-body, select, input, textarea {color: #333;}
-
-a {color: #95dd64;text-decoration:none;}
-a:hover {text-decoration: underline;color: #95dd64;}
-
-
-/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
-::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
-::selection {background: #fcd700; color: #fff; text-shadow: none;} 
-
-/*	j.mp/webkit-tap-highlight-color */
-a:link {-webkit-tap-highlight-color: #fcd700;} 
-
-ins {background-color: #fcd700; color: #000; text-decoration: none;}
-mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
-
-
-
-/* And here begins the Wordpress fun.
--------------------------------------------------------------------------------*/
-
-
-.hidden {display: none;}
-.post {}
-#social {float:right;}
-#social ul{list-style-type: none;margin: 2px 0px 0px 0px;padding:4px 0px 0px 0px;}
-#social ul li{display:inline;float:left;width: 90px;height:27px;}
-li.twitter{margin-top:2px;}
-li.facebook{margin-top:2px;}
-#nav {background-color: #669933;padding-right:15px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#669933), to(#99cc66)); /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(top, #669933, #99cc66); /* Chrome 10+, Saf5.1+, iOS 5+ */
-  background-image:    -moz-linear-gradient(top, #669933, #99cc66); /* FF3.6 */
-  background-image:     -ms-linear-gradient(top, #669933, #99cc66); /* IE10 */
-  background-image:      -o-linear-gradient(top, #669933, #99cc66); /* Opera 11.10+ */
-  background-image:         linear-gradient(top, #669933, #99cc66);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#669933', EndColorStr='#99cc66'); /* IE6-IE9 */
-           margin-top: 10px; float:right;
-               -webkit-border-radius: 10px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
-     -moz-border-radius: 10px; /* FF1-3.6 */
-          border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
-          
-  /* useful if you don't want a bg color from leaking outside the border: */        
-  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;}
-#nav ul{list-style-type: none;margin: 0;padding-top: 10px;;}
-#nav ul li{display:inline;float:left; padding: 2px;}
-#nav ul li a{text-decoration: none; color: black; cursor: pointer;text-shadow: 1px 1px 3px #888;font-size:16px}
-#nav ul li a:hover{color: #fff}
+body h3{color:#f93;font-size:20px;font-weight:100;margin-bottom:15px;margin-left:10px;}
+@font-face{font-family:'Questrial';font-style:normal;font-weight:400;src:local('Questrial'), local('Questrial-Regular'), url('http://themes.googleusercontent.com/static/fonts/questrial/v1/MYWJ4lYm5dbZ1UBuYox79LO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');}
+.rounded{-moz-background-clip:padding;-moz-border-radius:12px;-webkit-background-clip:padding-box;-webkit-border-radius:12px;background:#FFF;background-clip:padding-box;border-radius:12px;}
+.shadow{-moz-box-shadow:0 0 0 #fff;-webkit-box-shadow:0 0 0 #fff;box-shadow:0 0 0 #fff;margin-top:10px;}
+.transparent{background-color:rgba(255, 255, 255, 0.84);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D6FFFFFF,endColorstr=#D6FFFFFF);zoom:1px;}
+body,select,input,textarea{color:#333;}
+a:hover{color:#95dd64;text-decoration:underline;}
+a:link{-webkit-tap-highlight-color:#fcd700;}
+ins{background-color:#fcd700;color:#000;text-decoration:none;}
+mark{background-color:#fcd700;color:#000;font-style:italic;font-weight:700;}
+.hidden{display:none;}
+#social{float:right;}
+#social ul{list-style-type:none;margin:2px 0 0;padding:4px 0 0;}
+#social ul li{display:inline;float:left;height:27px;width:90px;}
+#nav{-moz-background-clip:padding;-moz-border-radius:10px;-webkit-background-clip:padding-box;-webkit-border-radius:10px;background-clip:padding-box;background-color:#693;background-image:linear-gradient(top, #669933, #99cc66);border-radius:10px;filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#669933', EndColorStr='#99cc66');float:right;margin-top:10px;padding-right:15px;}
+#nav ul{list-style-type:none;margin:0;padding-top:10px;}
+#nav ul li{display:inline;float:left;padding:2px;}
+#nav ul li a{color:#000;cursor:pointer;font-size:16px;text-decoration:none;text-shadow:1px 1px 3px #888;}
+#nav ul li a:hover{color:#fff;}
 .logo{z-index:1;}
-.negative {margin-bottom:-68px;}
-.positive {padding-top:28px;}
-.page p{margin-left:15px;margin-right: 15px;margin-top:15px;} 
-.page h2{} 
-.page h3{} 
-.page footer{margin:10px 0 0 10px;} 
-.blueberry ul li{list-style: none;margin:0px;}
-.entry p{padding:px 0px 0px 0px}
-.entry h1{font-variant: small-caps;color:#666;text-shadow:1px 1px 0px #fff;font-size:60px;text-transform:uppercase;display:block;background-color: rgba(153,204,102,0.49);text-indent:25px;margin: 20px;max-width:100%;}
-.entry h2{margin: 10px 0px 10px 10px;}
-.entry h3{margin: 10px 0px 10px 10px;}
-.entry li{list-style-type: disc;text-indent:10px;font-style:italic;list-style-position: inside; ;}
+.negative{margin-bottom:-68px;}
+.positive{padding-top:28px;}
+.page p{margin-left:15px;margin-right:15px;margin-top:15px;}
+.page footer{margin:10px 0 0 10px;}
+.blueberry ul li{list-style:none;margin:0;}
+.entry p{padding:px 0 0;}
+.entry h1{background-color:rgba(153,204,102,0.49);color:#666;display:block;font-size:60px;font-variant:small-caps;margin:20px;max-width:100%;text-indent:25px;text-shadow:1px 1px 0 #fff;text-transform:uppercase;}
+.entry li{font-style:italic;list-style-position:inside;list-style-type:disc;text-indent:10px;}
 .entry ul{margin-top:20px;}
-.entry-content {}
-.entry-content a {}
-.entry-content a:hover {}
-#meta {}
-.postmetadata {}
-.navgation {}
-.next-posts {}
-.prev-posts {}
-div#searchform{float:right;margin-top:10px;padding:6px 0px 6px 0px}
-#searchlabel label{font-size: medium;padding: 10px;}
-#s {margin: 0px 15px 0px 5px;}
+div#searchform{float:right;margin-top:10px;padding:6px 0;}
+#searchlabel label{font-size:medium;padding:10px;}
+#s{margin:0 15px 0 5px;}
 .fbcomments{text-align:center;}
-
-ol.commentlist {list-style: none;}
-ol.commentlist li {}
-ol.commentlist li.alt {}
-ol.commentlist li.bypostauthor {}
-ol.commentlist li.byuser {}
-ol.commentlist li.comment-author-admin {}
-ol.commentlist li.comment {border-bottom: 1px dotted #666; padding: 10px;}
-ol.commentlist li.comment div.comment-author {}
-ol.commentlist li.comment div.vcard {}
-ol.commentlist li.comment div.vcard cite.fn {font-style: normal;}
-ol.commentlist li.comment div.vcard cite.fn a.url {}
-ol.commentlist li.comment div.vcard img.avatar {float:right; margin: 0 0 10px 10px;}
-ol.commentlist li.comment div.vcard img.avatar-32 {}
-ol.commentlist li.comment div.vcard img.photo {}
-ol.commentlist li.comment div.vcard span.says {}
-ol.commentlist li.comment div.commentmetadata {}
-ol.commentlist li.comment div.comment-meta {font-size: 10px;}
-ol.commentlist li.comment div.comment-meta a {color: #ccc;}
-ol.commentlist li.comment p {}
-ol.commentlist li.comment ul {}
-ol.commentlist li.comment div.reply {font-size: 11px;}
-ol.commentlist li.comment div.reply a {font-weight: bold;}
-ol.commentlist li.comment ul.children {list-style: none; margin: 10px 0 0;}
-ol.commentlist li.comment ul.children li {}
-ol.commentlist li.comment ul.children li.alt {}
-ol.commentlist li.comment ul.children li.bypostauthor {}
-ol.commentlist li.comment ul.children li.byuser {}
-ol.commentlist li.comment ul.children li.comment {}
-ol.commentlist li.comment ul.children li.comment-author-admin {}
-ol.commentlist li.comment ul.children li.depth-2 {border-left: 5px solid #555; margin: 0 0 10px 10px;}
-ol.commentlist li.comment ul.children li.depth-3 {border-left: 5px solid #999; margin: 0 0 10px 10px;}
-ol.commentlist li.comment ul.children li.depth-4 {border-left: 5px solid #bbb; margin: 0 0 10px 10px;}
-ol.commentlist li.comment ul.children li.depth-5 {}
-ol.commentlist li.comment ul.children li.odd {}
-ol.commentlist li.even {background: #fff;}
-ol.commentlist li.odd {background: #f6f6f6;}
-ol.commentlist li.parent {border-left: 5px solid #111;}
-ol.commentlist li.thread-alt {}
-ol.commentlist li.thread-even {}
-ol.commentlist li.thread-odd {}
-
-
-/* Print styles!
--------------------------------------------------------------------------------*/
-@media print {
-
-
-
-}
-
-
-/* Media queries!
--------------------------------------------------------------------------------*/
-
-/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-@media screen and (max-device-width: 480px) {
-	
-		
-}
-
-@media all and (orientation: portrait) {
-	
-}
-
-@media all and (orientation: landscape) {
-	
-}
+ol.commentlist li.comment{border-bottom:1px dotted #666;padding:10px;}
+ol.commentlist li.comment div.vcard cite.fn{font-style:normal;}
+ol.commentlist li.comment div.vcard img.avatar{float:right;margin:0 0 10px 10px;}
+ol.commentlist li.comment div.comment-meta{font-size:10px;}
+ol.commentlist li.comment div.comment-meta a{color:#ccc;}
+ol.commentlist li.comment div.reply{font-size:11px;}
+ol.commentlist li.comment ul.children{list-style:none;margin:10px 0 0;}
+ol.commentlist li.comment ul.children li.depth-2{border-left:5px solid #555;margin:0 0 10px 10px;}
+ol.commentlist li.comment ul.children li.depth-3{border-left:5px solid #999;margin:0 0 10px 10px;}
+ol.commentlist li.comment ul.children li.depth-4{border-left:5px solid #bbb;margin:0 0 10px 10px;}
+ol.commentlist li.even{background:#fff;}
+ol.commentlist li.odd{background:#f6f6f6;}
+ol.commentlist li.parent{border-left:5px solid #111;}
+ul,ol.commentlist{list-style:none;}
+input[type="radio"],.ie6 input{vertical-align:text-bottom;}
+strong,th,ol.commentlist li.comment div.reply a{font-weight:700;}
+::-moz-selection,::selection{background:#fcd700;color:#fff;text-shadow:none;}
+li.twitter,li.facebook{margin-top:2px;}
+.entry h2,.entry h3{margin:10px 0 10px 10px;}

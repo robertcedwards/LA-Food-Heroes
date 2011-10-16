@@ -192,6 +192,8 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 #social ul{list-style-type: none;margin: 2px 0px 0px 0px;padding:4px 0px 0px 0px;}
 #social ul li{display:inline;float:left;width: 90px;height:27px;}
 li.twitter{margin-top:2px;}
+li.facebook{margin-top:2px;}
+
 
 #nav {background-color: #669933;padding-right:15px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#669933), to(#99cc66)); /* Saf4+, Chrome */

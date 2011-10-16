@@ -144,8 +144,8 @@
 			<div style="display:none"; class="description"><?php bloginfo('description'); ?></div>
 			<div id="social" class="col_4 last rounded transparent">
 				<ul>
-					<li><a href="#"><div class="fb-like social" data-href="http://www.facebook.com/pages/LA-Food-Heroes/126965250720277" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div></a></li>
-					<li><a href="#"><div class="social "><g:plusone href="http://www.lafoodheroes.org"></g:plusone></div></a></li>
+					<li class="facebook"><a href="#"><div class="fb-like social" data-href="http://www.facebook.com/pages/LA-Food-Heroes/126965250720277" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div></a></li>
+					<li ><a href="#"><div class="social "><g:plusone href="http://www.lafoodheroes.org"></g:plusone></div></a></li>
 					<li class="twitter"><a href="#"><div class="social "><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></a></li>
 				</ul>			
 			</div>

@@ -191,7 +191,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .post {}
 #social {padding:15px;float:right;}
 #social ul{list-style-type: none;margin: 0;padding: 0;}
- #social ul li{display:inline;float:left;width: 90px;}
+#social ul li{display:inline;float:left;width: 90px;}
 #nav {background-color: #669933;padding-right:15px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#669933), to(#99cc66)); /* Saf4+, Chrome */
   background-image: -webkit-linear-gradient(top, #669933, #99cc66); /* Chrome 10+, Saf5.1+, iOS 5+ */
@@ -216,8 +216,9 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .page h2{} 
 .page h3{} 
 .page footer{margin:10px 0 0 10px;} 
-.blueberry ul {
-	margin: 20px;
+.blueberry ul li{
+	list-style: none;
+  margin:0px;
 }
 
 .entry p{padding:px 0px 0px 0px}
@@ -226,7 +227,6 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .entry h3{margin: 10px 0 0 10px;}
 .entry li{list-style-type: disc;text-indent:10px;font-style:italic;list-style-position: inside; ;}
 .entry ul{margin-top:20px;}
-
 
 .entry-content {}
 .entry-content a {}

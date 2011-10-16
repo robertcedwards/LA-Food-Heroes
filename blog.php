@@ -9,7 +9,7 @@ Template Name: Blog Page - sidebar left
 <div class="row transparent rounded page">
 		
 				<?php get_sidebar(); ?>
-<article class="post col_12" id="post-<?php the_ID(); ?>">
+<article class="post col_8" id="post-<?php the_ID(); ?>">
 
 
 

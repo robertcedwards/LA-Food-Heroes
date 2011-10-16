@@ -142,15 +142,15 @@
 			<div class="col_4 logo"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
 			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<div style="display:none"; class="description"><?php bloginfo('description'); ?></div>
-			<div id="social" class="col_4">
+			<div id="social" class="col_4 last">
 				<ul>
 					<li><a href="#"><div class="fb-like social" data-href="http://www.facebook.com/pages/LA-Food-Heroes/126965250720277" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div></a></li>
 					<li><a href="#"><div class="social "><g:plusone href="http://www.lafoodheroes.org"></g:plusone></div></a></li>
 					<li><a href="#"><div class="social "><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></a></li>
 				</ul>			
 			</div>
-			<div id="nav" class="col_6"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
-			<div id="searchform" class=" col_4 rounded transparent">
+			<div id="nav" class="col_6 last"><?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => '' ) ); ?></div>
+			<div id="searchform" class=" col_4 rounded transparent last">
 				<?php get_search_form( $echo ); ?>
 			</div>
 		</header>

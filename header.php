@@ -142,7 +142,7 @@
 			<div class="col_4 logo"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
 			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<div style="display:none"; class="description"><?php bloginfo('description'); ?></div>
-			<div id="social" class="col_4 last">
+			<div id="social" class="col_4 last rounded transparent">
 				<ul>
 					<li><a href="#"><div class="fb-like social" data-href="http://www.facebook.com/pages/LA-Food-Heroes/126965250720277" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div></a></li>
 					<li><a href="#"><div class="social "><g:plusone href="http://www.lafoodheroes.org"></g:plusone></div></a></li>

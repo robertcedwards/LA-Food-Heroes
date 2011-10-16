@@ -6,7 +6,7 @@ Template Name: Pages
 <?php get_header(); ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<article class="post row   " id="post-<?php the_ID(); ?>">
+		<article class="post row" id="post-<?php the_ID(); ?>">
 
 
 
@@ -18,7 +18,6 @@ Template Name: Pages
 
 			</div>
 
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 		<?php comments_template(); ?>
 
 		</article>

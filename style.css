@@ -308,6 +308,11 @@ height: 27px;}
 .negative {
 margin-bottom: -0px;
 }
+.entry h1{font-size:45px;}
+.entry h2{font-size:30px;}
+.entry h3{font-size:20px;}
+
+
 @media all and (orientation: portrait) {
 	
 }

@@ -302,10 +302,11 @@ background-clip: padding-box;
 
 #social ul li{display: block;
 float: left;
-width: 14%;
+width: 25%;
 height: 27px;}
 #searchform{padding-top:25px;}
-
+.negative {
+margin-bottom: -0px;
 }
 @media all and (orientation: portrait) {
 	

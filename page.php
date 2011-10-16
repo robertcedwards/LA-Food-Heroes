@@ -6,12 +6,11 @@ Template Name: Pages
 <?php get_header(); ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<div class="row  page">
-		<article class="post col_8 rounded transparent" id="post-<?php the_ID(); ?>">
+		<article class="post row rounded transparent positive" id="post-<?php the_ID(); ?>">
 
 
 
-			<div class="entry">
+			<div class="entry col_8">
 
 				<?php the_content(); ?>
 
@@ -26,4 +25,3 @@ Template Name: Pages
 		<?php get_sidebar(); ?>
 
 		<?php endwhile; endif; ?>
-</div>

@@ -6,14 +6,13 @@ Template Name: Blog Page - sidebar left
 <?php get_header(); ?>
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<div class="row transparent rounded page">
 		
 				<?php get_sidebar(); ?>
-<article class="post col_8" id="post-<?php the_ID(); ?>">
+<article class="post row transparent rounded" id="post-<?php the_ID(); ?>">
 
 
 
-			<div class="entry">
+			<div class="entry col_8">
 
 				<?php the_content(); ?>
 
@@ -28,4 +27,3 @@ Template Name: Blog Page - sidebar left
 		<?php comments_template(); ?>
 
 		<?php endwhile; endif; ?>
-</div>

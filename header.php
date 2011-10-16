@@ -135,9 +135,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-	
-	<div class="container "><!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
-
 		<header id="header" class="row negative">
 			<div class="col_4 logo"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"</a></div>
 			<h1 style="display:none;"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>

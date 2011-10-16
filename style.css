@@ -298,13 +298,13 @@ border-radius: 12px;
 background-clip: padding-box;
 }	
 .mobile li a{padding: 10px;font-size:35px;}
-}
+
 
 #social ul li{display: block;
 float: left;
 width: 33%;
 height: 27px;}
-
+}
 @media all and (orientation: portrait) {
 	
 }

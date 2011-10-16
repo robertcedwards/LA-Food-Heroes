@@ -289,19 +289,20 @@ ol.commentlist li.thread-odd {}
 /* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media screen and (max-device-width: 480px) {
 	#nav{padding-bottom:30px;}
-	.mobile li{padding: 10px;width:100%;background: white;
+	.mobile li{padding: 10px;width:80%;background: white;
 -webkit-border-radius: 12px;
 -moz-border-radius: 12px;
 border-radius: 12px;
 -moz-background-clip: padding;
 -webkit-background-clip: padding-box;
 background-clip: padding-box;
-font-size:16px;}	
-.mobile li a{padding: 10px}
+}	
+.mobile li a{padding: 10px;font-size:35px;}
 }
+
 #social ul li{display: block;
 float: left;
-width: 90px;
+width: 33%;
 height: 27px;}
 
 @media all and (orientation: portrait) {

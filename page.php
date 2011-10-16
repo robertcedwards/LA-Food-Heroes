@@ -17,10 +17,10 @@ Template Name: Pages
 				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
 
 			</div>
+		<?php get_sidebar(); ?>
 
 		<?php comments_template(); ?>
 
 		</article>
-		<?php get_sidebar(); ?>
 
 		<?php endwhile; endif; ?>

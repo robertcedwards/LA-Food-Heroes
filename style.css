@@ -231,13 +231,10 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .entry-content a:hover {}
 #meta {}
 .postmetadata {}
-
-#sidebar {}
-
 .navgation {}
 .next-posts {}
 .prev-posts {}
-div#searchform{float:right;margin-top:10px;padding:6px}
+div#searchform{float:right;margin-top:10px;padding:6px 0px 6px 0px}
 #searchlabel label{font-size: medium;padding: 10px;}
 #s {margin: 0px 15px 0px 5px;}
 #searchsubmt {}

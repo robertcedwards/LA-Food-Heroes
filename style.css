@@ -193,8 +193,6 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 #social ul li{display:inline;float:left;width: 90px;height:27px;}
 li.twitter{margin-top:2px;}
 li.facebook{margin-top:2px;}
-
-
 #nav {background-color: #669933;padding-right:15px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#669933), to(#99cc66)); /* Saf4+, Chrome */
   background-image: -webkit-linear-gradient(top, #669933, #99cc66); /* Chrome 10+, Saf5.1+, iOS 5+ */
@@ -210,7 +208,6 @@ li.facebook{margin-top:2px;}
           
   /* useful if you don't want a bg color from leaking outside the border: */        
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;}
-
 #nav ul{list-style-type: none;margin: 0;padding-top: 10px;;}
 #nav ul li{display:inline;float:left; padding: 2px;}
 #nav ul li a{text-decoration: none; color: black; cursor: pointer;text-shadow: 1px 1px 3px #888;font-size:16px}
@@ -229,7 +226,6 @@ li.facebook{margin-top:2px;}
 .entry h3{margin: 10px 0px 10px 10px;}
 .entry li{list-style-type: disc;text-indent:10px;font-style:italic;list-style-position: inside; ;}
 .entry ul{margin-top:20px;}
-
 .entry-content {}
 .entry-content a {}
 .entry-content a:hover {}
@@ -241,8 +237,7 @@ li.facebook{margin-top:2px;}
 div#searchform{float:right;margin-top:10px;padding:6px 0px 6px 0px}
 #searchlabel label{font-size: medium;padding: 10px;}
 #s {margin: 0px 15px 0px 5px;}
-#searchsubmt {}
-
+.fbcomments{text-align:center;}
 
 ol.commentlist {list-style: none;}
 ol.commentlist li {}

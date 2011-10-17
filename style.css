@@ -213,6 +213,13 @@ li.facebook{margin-top:2px;}
 .page h3{} 
 .page footer{margin:10px 0 0 10px;} 
 .blueberry ul li{list-style: none;margin:0px;}
+.blueberry  ul{margin: 0px;}
+
+.blueberry li a{margin:0px;list-style-type:none;padding:0px}
+.blueberry h2{background-color: rgba(153,204,102,0.49);color:white;width: 92%;position:absolute;top: 5px;left: 5px;margin-bottom:5px;padding-top: 10px;font-variant:small-caps;min-height: 25%;margin-left:0px;}
+div.blueberry ul.slides li {list-style-type:none;}
+.blueberry h3{	color:white;position:absolute;top: 45px;left: 10px;font-size:16px;font-style:normal;max-width:90%;}
+.slides li{margin: 0px;}
 .entry p{padding:px 0px 0px 0px}
 .entry h1{font-variant: small-caps;color:#666;text-shadow:1px 1px 0px #fff;font-size:60px;text-transform:uppercase;display:block;background-color: rgba(153,204,102,0.49);text-indent:25px;margin: 20px;max-width:100%;}
 .entry h2{margin: 10px 0px 10px 10px;}

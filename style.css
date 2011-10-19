@@ -140,6 +140,7 @@ body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight:100;colo
   src: local('Questrial'), local('Questrial-Regular'), url('http://themes.googleusercontent.com/static/fonts/questrial/v1/MYWJ4lYm5dbZ1UBuYox79LO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
 
  }
+
 .rounded {
 	background:white;
   -webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
@@ -161,7 +162,37 @@ body h3 {font-size:20px;margin-left:10px;margin-bottom:15px;font-weight:100;colo
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D6FFFFFF,endColorstr=#D6FFFFFF);
             zoom: 1;
 
-}       
+}
+button:active{
+	 -webkit-box-shadow:none; /* Saf3-4 */
+     -moz-box-shadow: none; /* FF3.5 - 3.6 */
+          box-shadow: none;}
+.button:hover{
+	text-decoration:none}
+.button{font:'Questrial';
+  -webkit-box-shadow: 1px 1px 4px #666; /* Saf3-4 */
+     -moz-box-shadow: 1px 1px 4px #666; /* FF3.5 - 3.6 */
+          box-shadow: 1px 1px 4px #666;
+  text-align:center;
+  color: white;
+  font-size:24px;
+  padding:5px;
+  -webkit-border-radius: 5px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+     -moz-border-radius: 5px; /* FF1-3.6 */
+          border-radius: 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android  background-color: #336600;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#336600), to(#669933)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #336600, #669933); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, #336600, #669933); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, #336600, #669933); /* IE10 */
+  background-image:      -o-linear-gradient(top, #336600, #669933); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, #336600, #669933);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#336600', EndColorStr='#669933'); /* IE6-IE9 */
+            -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10? */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;
+          text-shadow: 1px 1px 3px #000;}
 /* we like off-black for text */
 body, select, input, textarea {color: #333;}
 
@@ -179,6 +210,8 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* And here begins the Wordpress fun.
 -------------------------------------------------------------------------------*/
+img.alignright{float:right;}
+img.alignleft{float:left;}
 .hidden {display: none;}
 .post {}
 #social {float:right;}
@@ -212,13 +245,12 @@ li.facebook{margin-top:2px;}
 .page h2{margin:10px 0 0 10px;font-weight:500;} 
 .page h3{} 
 .page footer{margin:10px 0 0 10px;} 
-.blueberry ul li{list-style: none;margin:0px;}
-.blueberry  ul{margin: 0px;}
-
-.blueberry li a{margin:0px;list-style-type:none;padding:0px}
-.blueberry h2{background-color: rgba(153,204,102,0.49);color:white;width: 92%;position:absolute;top: 5px;left: 5px;margin-bottom:5px;padding-top: 10px;font-variant:small-caps;min-height: 25%;margin-left:0px;}
+.blueberry ul li{list-style: none;margin:0px;padding:0px;}
+#slider div.blueberry ul.pager {margin:0px;position: absolute;top: 315px;left: 150px;}
+.blueberry li a{list-style-type:none;}
+.blueberry h2{background-color: rgba(153,204,102,0.49);color:white;width: 92%;position:absolute;top: 0px;left: 5px;margin-bottom:5px;padding-top: 10px;font-variant:small-caps;min-height: 25%;margin-left:0px;text-shadow:none;}
 div.blueberry ul.slides li {list-style-type:none;}
-.blueberry h3{	color:white;position:absolute;top: 45px;left: 10px;font-size:16px;font-style:normal;max-width:90%;}
+.blueberry h3{  color:white;position:absolute;top: 45px;left: 10px;font-size:16px;font-style:normal;max-width:90%;}
 .slides li{margin: 0px;}
 .entry p{padding:0px 0px 0px 0px}
 .entry h1{font-variant: small-caps;color:#666;text-shadow:1px 1px 0px #fff;font-size:60px;text-transform:uppercase;display:block;background-color: rgba(153,204,102,0.49);text-indent:25px;margin: 20px;max-width:100%;}
@@ -238,7 +270,9 @@ div#searchform{float:right;margin-top:10px;padding:6px 0px 6px 0px}
 #searchlabel label{font-size: medium;padding: 10px;}
 #s {margin: 0px 15px 0px 5px;}
 .fbcomments{text-align:center;}
-
+#mc-embedded-subscribe-form {background-color: #fffeff;max-width:90%;margin:0px auto 10px auto;padding:10px}
+#mc-embedded-subscribe-form div.mc-field-group.input-group ul li {list-style-imagetype:none;font-style:normal;}
+#mc-embedded-subscribe-form div.mc-field-group.input-group ul li label {position: relative;top: 5px;left: 5px;}
 ol.commentlist {list-style: none;}
 ol.commentlist li {}
 ol.commentlist li.alt {}
